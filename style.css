@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+h1 {
+    color: orange;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+}
+
+.main_div {
+    width: 200px;
+    border: 2px solid black;
+    height: 400px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #0d0502;
+}
+
+#inpt {
+    padding: 12px;
+    margin: 10px 43px;
+    font-size: 16px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 19px 26px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: aquamarine;
+    font-size: 15px;
+
+}
+.cal_btn{
+    background-color: orange;
+}
